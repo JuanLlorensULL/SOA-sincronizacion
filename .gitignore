@@ -1,0 +1,28 @@
+# Materiales del enunciado (no se redistribuyen)
+*.pdf
+
+# Build artifacts C++
+*.o
+*.a
+*.so
+*.d
+build/
+
+# Binarios
+productor-consumidor/prodcons
+lector-escritor/readwrite
+
+# Logs Valgrind sin curar
+valgrind-*.log
+*.core
+
+# Editores e IDE
+*.swp
+*.swo
+.vscode/
+.idea/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
