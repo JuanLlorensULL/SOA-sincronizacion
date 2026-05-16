@@ -6,7 +6,7 @@ Implementación del problema clásico **productor-consumidor** sobre un ring buf
 
 ## Entregables
 
-- **Informe:** [`informe.md`](informe.md) — respuesta a las preguntas de reflexión del enunciado con datos experimentales.
+- **Informe:** [`informe.md`](informe.md) ([PDF](informe.pdf)) — respuesta a las preguntas de reflexión del enunciado con datos experimentales.
 - **Código:** [`productor-consumidor/`](productor-consumidor/).
 - **Diagramas de flujo (Mermaid):** [`productor-consumidor/docs/diagrama-flujo.md`](productor-consumidor/docs/diagrama-flujo.md).
 - **Valgrind limpio:** [`productor-consumidor/docs/valgrind.log`](productor-consumidor/docs/valgrind.log) — 0 errores, 0 leaks.

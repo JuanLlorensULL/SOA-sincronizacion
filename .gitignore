@@ -1,5 +1,7 @@
 # Materiales del enunciado (no se redistribuyen)
 *.pdf
+# Excepción: el informe sí va al repo
+!informe.pdf
 
 # Build artifacts C++
 *.o
