@@ -137,7 +137,7 @@ int main(int argc, char** argv) {
     std::thread t_prod{Producer{buffer, cfg.items, cfg.prod_sleep, cfg.seed_producer}};
     std::thread t_c1{Consumer{buffer, 1, cfg.cons_sleep, initial_vector}};
     std::thread t_c2{Consumer{buffer, 2, cfg.cons_sleep, initial_vector}};
-    std::thread t_c3{Consumer{buffer, 2, cfg.cons_sleep, initial_vector}};
+    std::thread t_c3{Consumer{buffer, 3, cfg.cons_sleep, initial_vector}};
 
     t_prod.join();
     t_c1.join();
